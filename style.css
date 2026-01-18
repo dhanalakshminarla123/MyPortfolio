@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.logo {
+    color: orange;
+}
+
+/* HOME */
+.home {
+    padding: 80px 30px;
+}
+
+.home span {
+    color: orange;
+}
+
+.home button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: orange;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* ABOUT */
+.about {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.about h2 {
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-box img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.about button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* SKILLS */
+.skills {
+    padding: 60px 30px;
+}
+
+.skills h2 {
+    text-align: center;
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar {
+    background: #eee;
+    height: 8px;
+    border-radius: 5px;
+}
+
+.bar div {
+    height: 8px;
+    background: orange;
+    border-radius: 5px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 10px 30px;
+    background: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
